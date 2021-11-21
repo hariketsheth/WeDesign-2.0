@@ -614,6 +614,12 @@ body.dark-theme {
 }
 
 
+
+.swiper-container-3d .swiper-slide-shadow-left,
+.swiper-container-3d .swiper-slide-shadow-right {
+    background-image: none;
+}
+
 .contact__container {
     row-gap: 3.5rem;
 }
@@ -872,9 +878,6 @@ body.dark-theme {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .challenge__description {
-        padding: 0 4rem;
-    }
 
     .challenge__container {
         grid-template-columns: repeat(2, 170px);
@@ -955,6 +958,7 @@ body.dark-theme {
         margin-left: auto;
         margin-right: auto;
     }
+
 
     .section {
         padding: 8rem 0 1rem;
